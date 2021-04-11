@@ -8,4 +8,7 @@ const instance = axios.create({
 // this is how it works
 // instance.get('/example') -> https://api.themoviedb.org/3/example
 
-export default instance; 
+export default instance; // <- When you use 'default', when you import 
+                         //    this variable from "./axios", you can name
+                         //    it whatever you want 
+                         // ** Also, you can only have 1 'default' in each file.
